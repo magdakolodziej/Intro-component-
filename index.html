@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    </style> 
+
+  <link rel="stylesheet" href="styles.css"/> 
+
+
+</head>
+<body>
+
+  <div class="container">
+    <section class="left">   
+      <h1> Lern to code by watching others </h1>
+      <p> See how to experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable</p>
+    </section>
+
+    <section>
+     <div class="top signup">
+      <p> <b> Try it free 7 days </b> then $20/mo. thereafter</p>
+    </div>
+      <form class="signup">
+        <div>
+          <input type="text" id="fname" name="fname" placeholder="First Name" onblur="blurFirstName()">
+        </div>
+        <div>        
+          <input type="text" id="lname" name="lname" placeholder="Last Name">
+        </div>
+        <div>        
+         <input type="text" id="email" name="email" placeholder="Email Address"> 
+        </div> 
+        <div>  
+         <input type="text" id="password" name="password" placeholder="Password">
+        </div>
+        <button> CLAIM YOUR FREE TRIAL </button>
+        <p class="terms"> By clicking the button, you are agreeint to our <b>Terms and Services</b> </p>
+      </form>
+  </section>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="index.js" charset="UTF-8"></script>
+</body>
+</html>

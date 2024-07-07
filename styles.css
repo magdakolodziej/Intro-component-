@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+*{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+background-color: hsl(0, 100%, 74%)  ;
+background-image: url(./images/bg-intro-desktop.png);
+font-size: 16px;
+}
+
+section{
+  max-width: 100%;
+  width: 50%;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  padding: 0px 160px;
+}
+
+.left{
+  color: white;
+  padding-right: 60px;
+  line-height: 60px;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.left p{
+  opacity: 0.8;
+  line-height: 25px;
+}
+
+
+.signup{
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 7px rgba(97, 97, 97, 0.6);
+}
+
+.top {
+  background-color: hsl(248, 32%, 49%);
+  color: white; 
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 7px rgba(97, 97, 97, 0.6);
+
+}
+
+input{
+  border-radius: 8px;
+  border: 1px solid hsl(246, 25%, 77%);
+  font-size: 14px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+}
+
+form{
+  color: hsl(246, 25%, 77%);
+  padding: 0px;
+  align-items: center;
+  text-align: left;
+}
+
+.signup button{
+  background-color: hsl(154, 59%, 51%);
+  border-radius: 8px;
+  color: white;
+  border: 1px solid hsl(154, 59%, 51%);
+  width: 100%;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 25px;
+  border: 2px solid hsl(154, 91%, 35%);
+  margin: 10px; 
+
+}
+
+.terms{
+  font-size: 10px;
+  text-align: center;
+}
+
+.terms b{
+  color: hsl(0, 100%, 74%);
+}
+input:focus {
+  background-color: rgb(240, 232, 232);
+}
+button:focus {
+background-color: rgb(32, 124, 86);
+}
+
+.error{
+  border: 2px solid hsl(0, 100%, 74%);
+  background: url('images/icon-error.svg') no-repeat;
+  background-position: 95% 50%;
+}
+
+
+@media (max-width: 922px){
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+  background-image: url(./images/bg-intro-mobile.png);
+}
+
+section{
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.left{
+  text-align: center;
+  padding: 30px;
+}
+
+}
